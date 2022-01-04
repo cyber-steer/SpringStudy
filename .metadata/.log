@@ -368,3 +368,15 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-04 00:54:05.877
 !MESSAGE executing callback sts4.classpath.SEAwgPXz SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-04 20:50:47.805
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SEAwgPXz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-04 20:50:47.806
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.SEAwgPXz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-04 20:50:47.806
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-04 20:50:47.807
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SEAwgPXz => OK
