@@ -1,0 +1,13 @@
+127.0.0.1 - - [15/Sep/2022:11:23:53 +0900] "GET / HTTP/1.1" 404 807
+127.0.0.1 - - [15/Sep/2022:11:23:53 +0900] "GET /board-student/index.jsp HTTP/1.1" 200 1765
+127.0.0.1 - - [15/Sep/2022:11:23:54 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+127.0.0.1 - - [15/Sep/2022:11:23:56 +0900] "GET /board-student/list.jsp HTTP/1.1" 200 1275
+127.0.0.1 - - [15/Sep/2022:11:23:58 +0900] "GET /board-student/updateForm.jsp?bcode=1 HTTP/1.1" 200 1652
+127.0.0.1 - - [15/Sep/2022:11:24:04 +0900] "POST /board-student/updatePro.jsp HTTP/1.1" 302 -
+127.0.0.1 - - [15/Sep/2022:11:24:04 +0900] "GET /board-student/list.jsp HTTP/1.1" 200 1275
+127.0.0.1 - - [15/Sep/2022:11:24:06 +0900] "GET /board-student/updateForm.jsp?bcode=1 HTTP/1.1" 200 1639
+127.0.0.1 - - [15/Sep/2022:11:24:09 +0900] "GET /board-student/deletePro.jsp?bcode=1 HTTP/1.1" 302 -
+127.0.0.1 - - [15/Sep/2022:11:24:09 +0900] "GET /board-student/list.jsp HTTP/1.1" 200 1116
+127.0.0.1 - - [15/Sep/2022:11:24:14 +0900] "GET /board-student/insertForm.jsp HTTP/1.1" 200 1315
+127.0.0.1 - - [15/Sep/2022:11:24:24 +0900] "POST /board-student/insertPro.jsp HTTP/1.1" 302 -
+127.0.0.1 - - [15/Sep/2022:11:24:24 +0900] "GET /board-student/list.jsp HTTP/1.1" 200 1266

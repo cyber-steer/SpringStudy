@@ -1,0 +1,21 @@
+package temp;
+
+public class Main {
+	public static void main(String[] args) {
+		
+	}
+	
+}
+class Insert {
+	int request;
+	Insert (int request){
+		this.request = request;
+	}
+}
+class Form{
+	int request;
+	Form(int data){
+		this.request =data;
+		new Insert(this.request);
+	}
+}

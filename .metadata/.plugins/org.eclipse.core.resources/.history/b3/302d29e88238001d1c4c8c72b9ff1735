@@ -1,0 +1,5 @@
+package cs.dit.command;
+
+public class boardSelectOneCommand implements b{
+	
+}

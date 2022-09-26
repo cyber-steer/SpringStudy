@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletException"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="cs.dit.command.boardcommand"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="cs.dit.board.BoardDto"/>
+    <fullyQualifiedTypeName name="cs.dit.command.BoardListCommand"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="cs.dit.command.BoardInsertCommand"/>
+    <fullyQualifiedTypeName name="cs.dit.command.BoardSelectOneCommand"/>
+    <fullyQualifiedTypeName name="cs.dit.command.BoardUpdateCommand"/>
+    <fullyQualifiedTypeName name="java.util.prefs.BackingStoreException"/>
+    <fullyQualifiedTypeName name="cs.dit.command.BoardDeleteCommand"/>
+    <fullyQualifiedTypeName name="cs.dit.command.Boardcommand"/>
+    <fullyQualifiedTypeName name="cs.dit.command.BoardCommand"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.standard.JobMessageFromOperator"/>
+    <fullyQualifiedTypeName name="temp.Form"/>
+    <fullyQualifiedTypeName name="temp.Insert"/>
+    <fullyQualifiedTypeName name="cs.dit.board.BoardDao"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>
