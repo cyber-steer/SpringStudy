@@ -1,7 +1,0 @@
-package cs.dit.command;
-
-
-public interface boardcommand {
-	public void execute(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException;
-}

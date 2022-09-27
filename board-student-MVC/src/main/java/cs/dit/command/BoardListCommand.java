@@ -18,7 +18,6 @@ public class BoardListCommand implements BoardCommand{
 		
 		BoardDao dao = new BoardDao();
 		ArrayList<BoardDto> dtos = dao.list();
-		
 		request.setAttribute("dtos", dtos);
 	}	
 }
