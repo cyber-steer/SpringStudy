@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="hello" method="get">
+	<form action="view.jsp" method="get">
 		<input type="text" name="name">
 		<button type="submit">GET</button>
 	</form>

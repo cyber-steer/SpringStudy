@@ -22,7 +22,7 @@
 </style>
 <body>
 	<div class="container"><br>	
-	<h2 class="text-center font-weight-bold">게시판 목록</h2>
+	<h2 class="text-center font-weight-bold">게시판 목록 ${nowPage}</h2>
 	<br>
 	<form action="list.do" method="post">
 		<table class="table table-hover">
@@ -45,17 +45,20 @@
 		<nav aria-label="Page navigation example">
 		  <ul class="pagination">
 		    <li class="page-item">
-				<c:if test="${(nowPage-1)/10 == 0 }">
-			      <button type="submit" class="page-link"aria-label="Previous" value="${page} disabled" onclick="alert('마지막 페이지 입니다.')">
-			        <span aria-hidden="true">&laquo;</span>
-			      </button>
+				<c:if test="${(nowPage-1)/10 < 1 }">
+					<input type="hidden" name="nowPage" value="${nowPage}">
+					<button type="submit" class="page-link"aria-label="Previous" onclick="alert('처음')">
+						<span aria-hidden="true">&laquo;</span>
+					</button>
 				</c:if>
-				<c:if test="${(nowPage-1)/10 != 0 }">
-			      <button type="submit" class="page-link"aria-label="Previous" value="${page}">
-			        <span aria-hidden="true">&laquo;</span>
-			      </button>
+				<c:if test="${(nowPage-1)/10 >= 1 }">
+					<input type="hidden" name="nowPage" value="${nowPage}">
+						<button type="submit" class="page-link"aria-label="Previous" value="prev" name="loc">
+							<span aria-hidden="true">&laquo;</span>
+						</button>
 				</c:if>
 		    </li>
+		    
 			<c:forEach var='page' items='${pageNumbers}'>
 				<c:if test="${page == nowPage }">
 			    	<li class="page-item"><button type="submit" value="${page}" name="pageNumber" class="page-link now-page">${page}</button></li>
@@ -64,15 +67,17 @@
 			    	<li class="page-item"><button type="submit" value="${page}" name="pageNumber" class="page-link">${page}</button></li>
 				</c:if>
 			</c:forEach>
+			
 		    <li class="page-item">
-				<c:if test="${(nowPage-1)/10 == 0 }">
-					<input type="hidden" name="pageNumber" value="${(i-1)/10*10+21}">
-			      		<button type="submit" class="page-link"aria-label="Next">
-			        		<span aria-hidden="true">&raquo;</span>
-			      		</button>
+				<c:if test="${(nowPage+10) > maxPage }">
+					<input type="hidden" name="nowPage" value="${nowPage}">
+		      		<button class="page-link" aria-label="Next" onclick="alert('마지막 페이지 입니다.')">
+		        		<span aria-hidden="true">&raquo;</span>
+		      		</button>
 				</c:if>
-				<c:if test="${(nowPage-1)/10 != 0 }">
-			      <button type="submit" class="page-link"aria-label="Next">
+				<c:if test="${(nowPage+10) <=maxPage }">
+					<input type="hidden" name="nowPage" value="${nowPage}">
+			      <button type="submit" class="page-link"aria-label="Next" value="next" name="loc">
 			        <span aria-hidden="true">&raquo;</span>
 			      </button>
 				</c:if>
