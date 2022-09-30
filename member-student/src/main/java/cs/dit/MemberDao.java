@@ -58,33 +58,32 @@ public class MemberDao {
 		}
 	}
 	
-	public ArrayList<MemberDto> list(){
-		String sql = "SELECT * FROM member";
+	public ArrayList<MemberDto> list(int page, int numberOfRecords){
+		String sql = "SELECT * FROM member limit ?, ?";
 		ArrayList<MemberDto> dtos = new ArrayList<MemberDto>();
 		
 		try (	Connection con = getConnection();
-				Statement stmt = con.createStatement();
-				ResultSet rs = stmt.executeQuery(sql);
+				PreparedStatement pstmt = con.prepareStatement(sql);
 			)
 			{
-				while(rs.next()) {
-					MemberDto dto = new MemberDto();
-					
-					//12. ResultSet 객체변수 rs에서 데이터를 가져와 MemberDto를 만들기
-					dto.setId(rs.getString("id"));
-					dto.setPwd(rs.getString("pwd"));
-					dto.setName(rs.getString("name"));
-					dto.setEmail(rs.getString("email"));
-					dto.setJoinDate(rs.getDate("joinDate"));
-					
-					
-					
-					//13. ArrayList에 만들어진 dto를 추가하기
-					
-					dtos.add(dto);
-					
+				pstmt.setInt(1, (page-1)*numberOfRecords);
+				pstmt.setInt(2, numberOfRecords);
+				try(ResultSet rs = pstmt.executeQuery()){
+					while(rs.next()) {
+						MemberDto dto = new MemberDto();
+						
+						//12. ResultSet 객체변수 rs에서 데이터를 가져와 MemberDto를 만들기
+						dto.setId(rs.getString("id"));
+						dto.setPwd(rs.getString("pwd"));
+						dto.setName(rs.getString("name"));
+						dto.setEmail(rs.getString("email"));
+						dto.setJoinDate(rs.getDate("joinDate"));
+						
+						//13. ArrayList에 만들어진 dto를 추가하기
+						
+						dtos.add(dto);
+					}
 				}
-
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -161,6 +160,25 @@ public class MemberDao {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}		
+	}
+
+	public int recodeCount() {
+		String sql = "SELECT COUNT('bcode') FROM member;";
+		int count = 0;
+		try (
+			Connection con = getConnection();
+			Statement stmt = con.createStatement();
+			ResultSet rs = stmt.executeQuery(sql);
+			)
+		{
+			if(rs.next()) {
+				count = rs.getInt(1);
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}		
+		return count;
 	}
 	
 }

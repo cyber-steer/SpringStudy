@@ -6,8 +6,6 @@
     <fullyQualifiedTypeName name="javax.servlet.ServletException"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="cs.dit.command.boardcommand"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="cs.dit.command.BoardListCommand"/>
     <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
     <fullyQualifiedTypeName name="cs.dit.command.BoardInsertCommand"/>
@@ -22,9 +20,22 @@
     <fullyQualifiedTypeName name="temp.Insert"/>
     <fullyQualifiedTypeName name="cs.dit.board.BoardDao"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="javax.security.auth.Subject"/>
+    <fullyQualifiedTypeName name="org.xml.sax.helpers.AttributeListImpl"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="cs.command.MemberListCommand"/>
+    <fullyQualifiedTypeName name="cs.command.MemberCommand"/>
+    <fullyQualifiedTypeName name="cs.command.MemberInsertCommand"/>
+    <fullyQualifiedTypeName name="cs.command.MemberDeleteCommand"/>
+    <fullyQualifiedTypeName name="cs.command.MemberUpdateCommand"/>
+    <fullyQualifiedTypeName name="cs.command.MemberUpdateFormCommand"/>
+    <fullyQualifiedTypeName name="cs.dit.MemberDto"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="cs.dit.MemberDao"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="cs.dit.board.BoardDto"/>
-    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>

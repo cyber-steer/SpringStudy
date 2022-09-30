@@ -70,7 +70,6 @@
 			
 		    <li class="page-item">
 				<c:if test="${(nowPage+10) > maxPage }">
-					<input type="hidden" name="nowPage" value="${nowPage}">
 		      		<button class="page-link" aria-label="Next" onclick="alert('마지막 페이지 입니다.')">
 		        		<span aria-hidden="true">&raquo;</span>
 		      		</button>
