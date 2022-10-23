@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\admin\Polder\work\code\web\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\admin\Polder\work\code\web\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\member-student" path="/member-student" reloadable="true" source="org.eclipse.jst.jee.server:member-student">
+      <Context docBase="C:\Users\admin\Polder\work\code\web\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\admin\Polder\work\code\web\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\board-comment" path="/board-comment" reloadable="true" source="org.eclipse.jst.jee.server:board-comment">
 
     <!-- Default set of monitored resources. If one of these changes, the    -->
     <!-- web application will be reloaded.                                   -->
@@ -168,7 +168,7 @@
     <!-- DBCP 설정 -->
     <Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver" maxWait="5000" name="jdbc/spring" password="1111" type="javax.sql.DataSource" url="jdbc:mariadb://localhost:3333/springdb" username="spring"/>
     
-</Context></Host>
+</Context><Context docBase="C:\Users\admin\Polder\work\code\web\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Ajax" path="/Ajax" reloadable="true" source="org.eclipse.jst.jee.server:Ajax"/></Host>
     </Engine>
   </Service>
 </Server>

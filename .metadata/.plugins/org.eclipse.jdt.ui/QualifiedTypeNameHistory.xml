@@ -24,7 +24,6 @@
     <fullyQualifiedTypeName name="javax.security.auth.Subject"/>
     <fullyQualifiedTypeName name="org.xml.sax.helpers.AttributeListImpl"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="cs.command.MemberListCommand"/>
     <fullyQualifiedTypeName name="cs.command.MemberCommand"/>
     <fullyQualifiedTypeName name="cs.command.MemberInsertCommand"/>
@@ -33,9 +32,15 @@
     <fullyQualifiedTypeName name="cs.command.MemberUpdateFormCommand"/>
     <fullyQualifiedTypeName name="cs.dit.MemberDto"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
-    <fullyQualifiedTypeName name="cs.dit.MemberDao"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="cs.dit.board.BoardDto"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="cs.dit.MemberDao"/>
+    <fullyQualifiedTypeName name="org.apache.tomcat.jni.File"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.MultipartConfig"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.Part"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
