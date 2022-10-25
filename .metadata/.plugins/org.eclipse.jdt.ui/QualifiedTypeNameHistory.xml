@@ -20,7 +20,6 @@
     <fullyQualifiedTypeName name="temp.Insert"/>
     <fullyQualifiedTypeName name="cs.dit.board.BoardDao"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
-    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="javax.security.auth.Subject"/>
     <fullyQualifiedTypeName name="org.xml.sax.helpers.AttributeListImpl"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
@@ -31,10 +30,8 @@
     <fullyQualifiedTypeName name="cs.command.MemberUpdateCommand"/>
     <fullyQualifiedTypeName name="cs.command.MemberUpdateFormCommand"/>
     <fullyQualifiedTypeName name="cs.dit.MemberDto"/>
-    <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="cs.dit.board.BoardDto"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="cs.dit.MemberDao"/>
     <fullyQualifiedTypeName name="org.apache.tomcat.jni.File"/>
@@ -42,5 +39,20 @@
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="javax.servlet.http.Part"/>
     <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
+    <fullyQualifiedTypeName name="java.io.Console"/>
+    <fullyQualifiedTypeName name="java.security.interfaces.RSAKey"/>
+    <fullyQualifiedTypeName name="cs.dit.command.CommentsListCommand"/>
+    <fullyQualifiedTypeName name="cs.dit.board.CommantsDao"/>
+    <fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
+    <fullyQualifiedTypeName name="cs.dit.command.CommentsCommand"/>
+    <fullyQualifiedTypeName name="cs.dit.command.CommentsInsertCommand"/>
+    <fullyQualifiedTypeName name="cs.dit.board.CommentsDao"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="cs.dit.board.CommentsDto"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.CallableStatement"/>
 </qualifiedTypeNameHistroy>

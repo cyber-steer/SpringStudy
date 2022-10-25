@@ -52,15 +52,14 @@
 	<!-- 한줄 댓글 -->
 	<script>
 		let bcode = document.getElementById("bcode").value;
-		let xhr1 = new XMLHttpsRequest();
-		let xhr2 = new XMLHttpsRequest();
+		let xhr1 = new XMLHttpRequest();
+		let xhr2 = new XMLHttpRequest();
 		function cInsert(){
 			
 		}
 		
 		window.onload = function(){
-			console.log("시발");
-			//cList();
+			cList();
 		}
 	</script>
 	<table class="table">
